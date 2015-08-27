@@ -87,17 +87,20 @@
           (setq last-char-is-hangul nil)
           (setq start (1+ start)))))))
 
+;;;###autoload
 (defun kroman-romanize-region ()
   "Romanize current selected region."
   (interactive)
   (and (region-active-p)
        (kroman-romanize (region-beginning) (region-end) (current-buffer))))
 
+;;;###autoload
 (defun kroman-romanize-buffer ()
   "Romanize current buffer."
   (interactive)
   (kroman-romanize (point-min) (point-max) (current-buffer)))
 
+;;;###autoload
 (defun kroman-romanize-other-window ()
   "Romanize current buffer and show it other window."
   (interactive)
