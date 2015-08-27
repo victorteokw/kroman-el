@@ -1,4 +1,4 @@
-;;; kroman.el --- Korean hangul romanization         -*- lexical-binding: t; -*-
+;;; kroman.el --- Korean hangul romanization
 
 ;; Copyright (C) 2015  Kai Yu
 
@@ -23,7 +23,7 @@
 ;;
 
 ;;; Code:
-(setq debug-on-message t)
+
 (defconst kroman--head-jamos
   '("g" "gg" "n" "d" "dd" "r" "m" "b" "bb" "s" "ss" "" "j" "jj" "c" "k" "t" "p"
     "h")
