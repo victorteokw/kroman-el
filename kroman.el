@@ -2,7 +2,7 @@
 
 ;; Copyright (C) 2015  Kai Yu
 
-;; Author: Kai Yu <1@YeaMacky.local>
+;; Author: Zhang Kai Yu <yeannylam@gmail.com>
 ;; Keywords: korean, roman
 
 ;; This program is free software; you can redistribute it and/or modify
